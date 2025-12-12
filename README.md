@@ -31,6 +31,12 @@ The below are required Python packages. You can install them by running the foll
 pip install -r requirements.txt
 ```
 
+Or with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv sync
+```
+
 - [Requests](https://docs.python-requests.org/en/master/user/install/#install)
 - [tqdm](https://github.com/tqdm/tqdm#installation)
 - [Python Steam](https://github.com/ValvePython/steam)
@@ -46,19 +52,22 @@ necessary Python packages:
 
 ## Usage
 
-Run the script with the following commands in terminal:
+Run the script with either [uv](https://docs.astral.sh/uv/) or Python:
 
 1. To download icons for specific games, provide the app IDs:
+
    ```bash
    python SteamIconsFix.py 730 440 570 228980
    ```
 
 2. To print the list of installed games, run:
+
    ```bash
    python SteamIconsFix.py list
    ```
 
 3. To download icons for all installed games, run:
+
    ```bash
    python SteamIconsFix.py all
    ```
