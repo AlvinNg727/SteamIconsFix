@@ -1,0 +1,11 @@
+[project]
+name = "SteamIconsFix"
+version = "0.1.0"
+description = "A script to download icons for all the installed games in your Steam library."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.5",
+    "steam[client]>=1.4.4",
+    "tqdm>=4.67.1",
+]
